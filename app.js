@@ -80,7 +80,7 @@ let type=eve.target.type.value.toLowerCase();
 let date = eve.target.date.value;
 console.log(type)
 let movie=new Movie(name,type,date)
-table.removeChild(tf)
+
 
 movie.render()
 createFooter()

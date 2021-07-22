@@ -10,16 +10,16 @@
 </head>
 <body>
     <header>
-       <h1>MY MOVIE LIST</h1> 
+       <h1>My Movie List</h1> 
     </header>
     <main>
         <div id= 'formDiv'>
             <fieldset>
                 <legend> NEW MOVIE</legend>
                 <form action="" id='form'>
-                    <label for="name">name :</label><br>
+                    <label for="name">Name</label><br>
                     <input type="text" placeholder="name" id='name'><br>
-                    <label for="type">Image</label>
+                    <label for="type">Image</label><br>
                     <select name="type" id="type" id='type'>
                         <option value="History">History</option>
                         <option value="Adventure">Adventure</option>
@@ -36,11 +36,11 @@
                         <option value="War">War</option>
                         <option value="Western">Western</option>
                     </select><br>
-                    <label for="date">Release</label>
+                    <label for="date">Release</label><br>
                     <input type="text" id='date'><br>
 
-                    <button type="submit" id='button1' > SAVE</button>
-                    <button type="reset" id='reset' style="background-color: red;"> CLEAR LS</button>
+                    <button type="submit" id='button1' style=' margin: 5px;' > SAVE</button>
+                    <button type='button' id='reset' style="background-color: #a10909;"> CLEAR LS</button>
 
                 </form>
             </fieldset>
@@ -53,7 +53,9 @@
 
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p class ='footerP'>All Right Reserved 2021 &copy; ASAC</p>
+    </footer>
     <script src="./app.js"></script>
 </body>
 </html>

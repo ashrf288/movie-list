@@ -115,5 +115,5 @@ td3.textContent='Quantitiy'
 td4=document.createElement('td');
 let numOfRows = table.length;
 console.log(numOfRows)
-// td4.textContent=table.
+
 }

@@ -16,7 +16,7 @@ clear.addEventListener('click',()=>{
     return(
         Movie.all=[],
         localStorage.setItem('old',JSON.stringify(Movie.all)),
-        location.reload()
+        //location.reload()
          
 
         )  
